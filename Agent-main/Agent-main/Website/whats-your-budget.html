@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Effective Agents">
+    <title>Effective Agents - Whats your budget</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/elements.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="full-vh payment-full-vh step-wrap step5">
+            <header class="payment-header">
+                <a href="#" class="logo"><img src="./images/logo.svg" alt="Effective Agents"></a>
+
+                <span>CONFIRMATION</span>
+            </header>
+
+
+            <div class="cust-container-lg payment-content-full-view payment-content">
+                <div class="payment-content-inner">
+                    <span class="bar-ico ico gs_reveal"></span>
+                    <span class="tagline gs_reveal">CONFIRMATION</span>
+                    <h2 class="gs_reveal">Does everything look correct?</h2>
+
+                    <div class="payment-invoice-detail">
+                        <div class="table-caption-head">
+                            <h3 class="gs_reveal">Transaction Information</h3>
+                            <button type="button" class="edit-ico-green ico gs_reveal" data-toggle="modal" data-target="#edit-reminder-popup">
+                            </button>
+                        </div>
+
+                        <div class="table-responsive cat-table gs_reveal">
+                            <table class="table cust-table invoice-table-desktop">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Closing Date</th>
+                                        <th scope="col">PRICE of SALE</th>
+                                        <th scope="col">Gross commission </th>
+                                        <th scope="col">TOTAL DUE</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td scope="row">02/21/2021</td>
+                                        <td>$275,600.00</td>
+                                        <td>$21,500</td>
+                                        <td>$2,151.50</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <table class="table cust-table invoice-table-mobile gs_reveal">
+                                <tbody>
+                                    <tr>
+                                        <th scope="col">Closing Date</th>
+                                        <td>02/21/2021</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">PRICE of SALE</th>
+                                        <td>$275,600.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Gross commission</th>
+                                        <td>$21,500</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">TOTAL DUE</th>
+                                        <td>$2,151.50</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="table-caption-head">
+                            <h3 class="gs_reveal">Payment Method</h3>
+         
+                            <button type="button" class="edit-ico-green ico gs_reveal" data-toggle="modal" data-target="#edit-reminder-popup">
+                            </button>
+                        </div>
+
+                        <div class="table-responsive cat-table gs_reveal">
+                            <table class="table cust-table invoice-table-desktop">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">CARD #</th>
+                                        <th scope="col">Exp.</th>
+                                        <th scope="col">CVC </th>
+                                        <th scope="col">ZIP</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td scope="row">**** **** **** 4242</td>
+                                        <td>02/2023</td>
+                                        <td>123</td>
+                                        <td>12345</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <table class="table cust-table invoice-table-mobile gs_reveal">
+                                <tbody>
+                                    <tr>
+                                        <th scope="col">CARD #</th>
+                                        <td>**** **** **** 4242</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Exp.</th>
+                                        <td>02/2023</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">CVC</th>
+                                        <td>123</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">ZIP</th>
+                                        <td>12345</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- payment-invoice-detail -->
+                    <div class="payment-invoice-foot">
+                        <div class="payment-info-foot gs_reveal">
+                            <span>Total Due =</span>
+                            <h2>$2,151.50</h2>
+                        </div>
+    
+                        <button type="button" class="theme--dark-btn submit-btn theme-black-btn-green-arrow theme-arrow-btn gs_reveal"
+                            data-toggle="modal" data-target="#payment-succes-modal">
+                            SUBMIT PAYMENT
+                        </button>
+                            
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+
+    <div class="modal fade cust-modal-form contact-form edit-reminder-popup" id="edit-reminder-popup" tabindex="-1"
+    aria-labelledby="edit-reminder-popupLabel" aria-hidden="true" style="display: none !important;">
+
+    <button type="button" class="close close-modal-ico" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true"></span>
+    </button>
+
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <span class="clock-ico ico"></span>
+                <span class="tagline">EDIT REMINDER</span>
+                <h2>Need to make a change?</h2>
+
+                <form>
+                    <div class="form-group">
+                        <label>Remind me to</label>
+                        <select name="sources" id="clientname" class="custom-select sources"
+                            placeholder="Text Message to (Client Name)">
+                            <option value="1">Text Message to (Client Name)</option>
+                            <option value="2">2 day</option>
+                            <option value="3">3 day</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>In</label>
+                        <select name="sources" id="day" class="custom-select sources" placeholder="1 day">
+                            <option value="1">1 day</option>
+                            <option value="2">2 day</option>
+                            <option value="3">3 day</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Set Reminder Time</label>
+                        <div class="row select-group-row">
+                            <div class="col-4">
+                                <select name="sources" id="reminder" class="custom-select sources"
+                                    placeholder="1 day">
+                                    <option value="1">HOUR</option>
+                                    <option value="2">1</option>
+                                    <option value="3">2</option>
+                                    <option value="3">3</option>
+                                    <option value="3">4</option>
+                                </select>
+                            </div>
+                            <div class="col-4">
+                                <select name="sources" id="MINUTE" class="custom-select sources"
+                                    placeholder="1 day">
+                                    <option value="1">10</option>
+                                    <option value="2">20</option>
+                                    <option value="3">30</option>
+                                </select>
+                            </div>
+                            <div class="col-4">
+                                <select name="sources" id="PM/AM" class="custom-select sources" placeholder="1 day">
+                                    <option value="1">PM</option>
+                                    <option value="2">AM</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button type="button" class="theme--green-btn submit-btn sucessmodal-btn theme-arrow-btn"
+                        data-toggle="modal" data-target="#edi-reminder-sucessModal">
+                        SAVE
+                    </button>
+                    <span class="form-link">
+                        <a href="#" class="link">DELETE THIS REMINDER</a>
+                    </span>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+    <!-- edit a reminder successfull -->
+
+    <div class="modal fade cust-modal sucessModal edi-reminder-sucessModal" id="edi-reminder-sucessModal" tabindex="-1"
+        aria-labelledby="edi-reminder-sucessModalLabel" aria-hidden="true" style="display: none !important;">
+        <button type="button" class="close close-modal-ico" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"></span>
+        </button>
+
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+
+                <div class="modal-body">
+                    <span class="check-ico ico"></span>
+                    <h2>Your Reminder has been scheduled.</h2>
+                    <p>Custom success message text goes here about the successful user action.</p>
+                </div>
+
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                    <!-- <button type="button" class="modal-btn theme--green-btn">CONTINUE</button> -->
+                    <a href="my-reminder.html" class="modal-btn theme--green-btn">CONTINUE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade show cust-modal sucessModal" id="payment-succes-modal" tabindex="-1"
+        aria-labelledby="payment-succes-modalModalLabel" aria-hidden="true" style="display: none !important;">
+        <button type="button" class="close close-modal-ico" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"></span>
+        </button>
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+   
+            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button> -->
+         
+            <div class="modal-body">
+            <span class="check-green-outline-ico ico"></span>
+             <h2>We’ve received your referral payment!</h2>
+             <p>Thanks for using effectiveagents.com!</p>
+            </div>
+
+            <div class="modal-footer">
+              <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+              <button type="button" class="modal-btn theme--green-btn">CONTINUE</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- scripts -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/custom.gsap.js"></script>
+</body>
+
+</html>

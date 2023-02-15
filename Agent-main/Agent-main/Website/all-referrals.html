@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Effective Agents">
+    <title>Effective Agents - All Referrals</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/elements.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="page__header">
+            <a href="index.html" class="logo"><img src="./images/logo.svg" alt="Effective Agents"></a>
+
+            <nav class="header-menu">
+                <ul>
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li class="active"><a href="all-referrals.html"><span class="badge">2</span>Referrals</a></li>
+                    <li><a href="award.html">Awards</a></li>
+                    <li><a href="my-reminder.html">My Reminders</a></li>
+
+                    <li>
+                        <div class="dropdown cust-dropdown">
+                            <a class="btn dropdown-toggle" href="my-account.html" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Account </a>
+
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="my-account.html">My Account</a>
+                                <a class="dropdown-item" href="account-settings.html">Account Settings</a>
+                                <a class="dropdown-item" href="payment-methods-page.html">Payment Methods</a>
+                                <a class="dropdown-item" href="my-profile.html">My Profile</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+        <div class="overlay" id="overlay">
+            <a href="#" class="logo"><img src="./images/logo.svg" alt="Effective Agents"></a>
+            <nav class="overlay-menu">
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li class="badge-li active"><a href="#"><span class="badge">2</span>Referrals</a></li>
+                    <li><a href="award.html">Awards</a></li>
+                    <li><a href="my-reminder.html">My Reminders</a></li>
+                    <li><a href="my-account.html">Account</a></li>
+                    <li><a href="account-settings.html">Account Settings</a></li>
+                    <li><a href="payment-methods-page.html">Payment Methods</a></li>
+                    <li><a href="my-profile.html">My Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="banner inner-banner caret">
+            <div class="banner-container cust-container-sm">
+                <h2 class="banner-main-heading gs_reveal">Welcome, Jane! You have <span
+                        class="highlight--green">2</span> new
+                    referrals.</h2>
+            </div>
+        </section>
+        <!-- banner ends -->
+        <div class="page-content-wrap">
+            <section class="cat-block cust-container-lg all-referral-block">
+                <div class="cat-filter-block gs_reveal">
+                    <div class="cat-filter-head">
+                        <h2>Filter </h2>
+                        <span class="close-ico">Clear All</span>
+                    </div>
+
+                    <Form>
+                        <div class="cat-filter-cells">
+                            <h3>TYPE</h3>
+                            <div class="wrap-label">
+                                <label class="cust-radio-container">Buyer
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="cust-radio-container">Seller
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="cust-radio-container">Both
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+
+
+                        <div class="cat-filter-cells">
+                            <h3>TYPE</h3>
+                            <div class="wrap-label">
+                                <label class="cust-radio-container">Buyer
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="cust-radio-container">Seller
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="cust-radio-container">Both
+                                    <input type="radio" name="radio" checked>
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="cat-filter-cells">
+                            <h3>Status</h3>
+                            <div class="wrap-label">
+                                <label class="cust-radio-container">Urgent
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="cust-radio-container">Archived
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="cat-filter-cells">
+                            <h3>Status</h3>
+                            <div class="wrap-label">
+                                <label class="cust-radio-container">New Referral
+                                    <input type="radio" checked="checked" checked name="radio1">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="cust-radio-container">Needs Follow-up
+                                    <input type="radio" name="radio2">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="cust-radio-container">Left Voicemail
+                                    <input type="radio" name="radio3" checked>
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="cust-radio-container">Meeting Scheduled
+                                    <input type="radio" name="radio4">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="cust-radio-container">In Contract
+                                    <input type="radio" name="radio5">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="cust-radio-container">Deal Closed
+                                    <input type="radio" name="radio6">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="cat-filter-cells">
+                            <h3>DATE RANGE</h3>
+                            <select class="form-select" aria-label="Default select">
+                                <option selected>All Time</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <div class="cat-filter-btn">
+                                <a href="#" class="theme--green-btn animated-button theme-animation">Filter RESULTS</a>
+                                <a href="#" class="theme--grey-btn animated-button theme-animation">CLEAR FILTER</a>
+                            </div>
+
+                        </div>
+                    </Form>
+
+                </div> <!-- cat-filter-block -->
+
+                <div class="cat-content gs_reveal">
+                    <div class="cat-search-head">
+
+                        <div class="input-group cust-search">
+                            <input class="form-control" placeholder="Search by Name or Location" name="srch-term"
+                                id="srch-term" type="text">
+                            <div class="input-group-btn search-ico">
+                                <button class="btn btn-default" type="submit"></button>
+                            </div>
+                        </div>
+
+                        <a href="#" class="theme--dark-btn export-ico">Export .CSV</a>
+                    </div>
+
+                    <div class="table-responsive cat-table">
+                        <table class="table cust-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">TYPE</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Location</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col" class="filter-arrow">Received On</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="active-row to-link-page" onclick="location.href='referral-single-page.html'">
+                                    <td scope="row" class="bullets">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>New Lead</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr class="active-row">
+                                    <td scope="row" class="bullets">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>New Lead</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row" class="bullets bullets--red">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>New Lead</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row" class="bullets">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Left Voicemail</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Need Follow-up</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Left Voicemail</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Need Follow-up</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row" class="bullets bullets--red">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Meeting Scheduled</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Meeting Scheduled</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row" class="bullets bullets--red">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Meeting Scheduled</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>In Contract</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>In Contract</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>In Contract</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Left Voicemail</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>In Contract</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Left Voicemail</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Buyer</td>
+                                    <td>$352,100</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Johnathon Samsonite</td>
+                                    <td>Seller</td>
+                                    <td>$405,000</td>
+                                    <td>5322 Braddock Drive, Zepyr...</td>
+                                    <td>
+                                        <select class="form-select" aria-label="Default select">
+                                            <option selected>Deal Closed</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                    <td>01/04/2020</td>
+                                    <td><span class="trash-ico"></span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <div class="table-footer">
+                        <div>
+                            <select class="form-select" aria-label="Default select">
+                                <option selected>Show 50</option>
+                                <option value="1">Show 50</option>
+                                <option value="2">Show 50</option>
+                                <option value="3">Show 50</option>
+                            </select>
+
+                            <span class="enities">Showing 1 to 10 of 10 entries</span>
+                        </div>
+
+
+                        <div class="pagination">
+                            <a href="#" class="arrow-left"></a>
+                            <a href="#" class="active">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">6</a>
+                            <a href="#">7</a>
+                            <a href="#" class="arrow-right"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="page__footer">
+            <div class="footer-access-links gs_reveal_fromLeft">
+                <a href="#" class="download-ico footer-links">Download Our W9</a>
+                <button type="button" class="referral-ico footer-links" data-toggle="modal"
+                    data-target="#request-a-feature">View Referral Agreement
+                </button>
+                <button type="button" class="report-ico footer-links" data-toggle="modal"
+                    data-target="#request-a-feature">
+                    Report An Issue</button>
+                <button type="button" class="suggest-ico footer-links" data-toggle="modal"
+                    data-target="#request-a-feature">
+                    Suggest a Feature</button>
+                <a href="search-referrals.html" class="payment-ico footer-links">Make A Payment</a>
+            </div>
+
+            <a href="#" class="gs_reveal_fromRight">Contact Us </a>
+        </footer>
+    </div>
+
+    <!-- request a feature -->
+    <div class="modal fade cust-modal-form request-a-feature" id="request-a-feature" tabindex="-1"
+        aria-labelledby="request-a-featureLabel" aria-hidden="true" style="display: none !important;">
+
+        <button type="button" class="close close-modal-ico" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"></span>
+        </button>
+
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <span class="check-ico ico"></span>
+                    <span class="tagline">REQUEST A FEATURE</span>
+                    <h2>If you have an idea, we want to know.</h2>
+
+                    <form>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="firstname" placeholder="FIRST NAME*">
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="lastname" placeholder="LAST NAME*">
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <input type="email" class="form-control" id="email" placeholder="EMAIL*">
+                            </div>
+
+
+                            <div class="form-group col-md-12">
+                                <textarea class="form-control" id="label-idea" placeholder="Describe your feature idea"
+                                    rows="3"></textarea required>
+                 </div>
+                 <div class="form-group col-md-12">
+                 <div class="cust-file-upload">
+                     <label for="file" class="sr-only">File</label>
+                     <div class="input-group">
+                       <input type="text" name="filename" class="form-control" placeholder="Have examples? Upload screenshots here." readonly>
+                       <span class="input-group-btn">
+                         <div class="custom-file-uploader custom-file-upload-btn">
+                           <input type="file" name="file" onchange="this.form.filename.value = this.files.length ? this.files[0].name : ''" />
+                         </div>
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+             </div>
+                 <!-- <button class="theme--green-btn submit-btn theme-arrow-btn" type="submit">Report THE Issue</button> -->
+                <button type="button" class="theme--green-btn submit-btn theme-arrow-btn sucessModal-popup-btn" data-toggle="modal" data-target="#sucessModal">
+                    Report THE Issue</button>
+             </form>
+         </div>
+
+
+     </div>
+ </div>
+</div>
+
+
+<div class="modal fade cust-modal sucessModal" id="sucessModal" tabindex="-1"
+        aria-labelledby="sucessModalLabel" aria-hidden="true" style="display: none !important;">
+        <button type="button" class="close close-modal-ico" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"></span>
+        </button>
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button> -->
+     
+        <div class="modal-body">
+        <span class="check-ico ico"></span>
+         <h2>We recieved your Feature Request.</h2>
+         <p>Custom success message text goes here about the successful user action.</p>
+        </div>
+
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+          <button type="button" class="modal-btn theme--green-btn">CONTINUE</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+    <!-- scripts -->
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/custom.gsap.js"></script>
+    <script>
+        $('.modal').modal({
+            show: false
+        });
+        $("body").removeClass('bodyfix');
+        $('.sucessModal-popup-btn').on('click', function () {
+            $('#request-a-feature').hide();
+            $('#sucessModal').show();
+            $("body").addClass('bodyfix');
+        });
+    </script>
+</body>
+
+</html>
